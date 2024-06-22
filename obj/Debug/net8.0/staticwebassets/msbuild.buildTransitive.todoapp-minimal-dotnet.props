@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\todoapp-minimal-dotnet.props" />
+</Project>

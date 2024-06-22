@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "B58valAv30MZdT3gO0/8GtGppAKC3QcCXg+dWouc6As=",
+  "Source": "todoapp-minimal-dotnet",
+  "BasePath": "_content/todoapp-minimal-dotnet",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
