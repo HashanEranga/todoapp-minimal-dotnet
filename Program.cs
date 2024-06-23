@@ -1,8 +1,16 @@
 using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Rewrite;
 using todoapp_minimal_dotnet.models;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
+
+app.UseRewriter(new RewriteOptions().AddRedirect("tasks/(.*)", "todos/$1"));
+app.Use(async (context, next) => {
+    Console.WriteLine($"[{context.Request.Method} {context.Request.Path} {DateTime.UtcNow} started]");
+    await next(context);
+    Console.WriteLine($"[{context.Request.Method} {context.Request.Path} {DateTime.UtcNow} ended]");
+});
 
 var todos = new List<Todo>(){
     new(){
