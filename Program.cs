@@ -41,6 +41,14 @@ app.MapGet("/todos/{id}", Results<Ok<Todo>, NotFound> (int id) => {
 app.MapPost("/todos", (Todo task) => {
     todos.Add(task);
     return TypedResults.Created("todos/{id}", task);
+})
+.AddEndpointFilter(async (context, next) => {
+    var taskArgument = context.GetArgument<Todo>(0);
+    var errors = new Dictionary<string, string[]>();
+    if (taskArgument.CreatedOn < DateTime.UtcNow) errors.Add(nameof(Todo.CreatedOn), ["Cannot have due date in the past"]);
+    if (taskArgument.IsCompleted) errors.Add(nameof(Todo.IsCompleted), ["Cannot add completed todo"]);
+    if (errors.Count > 0) return Results.ValidationProblem(errors);
+    return await next(context);
 });
 
 app.MapGet("/todos", () => todos);
