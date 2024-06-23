@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "12SdzKCv2m4fuMLT3Xh9yAPG9LvAcs1GJ6Jg33tqi0Ydk4pqfAPCsed8aTKiqLrYdvkOP707d0nnPIkn+YxOVA==",
+  "dgSpecHash": "Mhc3faACNWaMeHxu7iKx2ZJureucOFFxdotiWoGGZzs6yOa9OiiJHDcNASjcgAy9oOEnLPainmmvBTswNKE3dg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\todoapp-minimal-dotnet\\todoapp-minimal-dotnet.csproj",
+  "projectFilePath": "d:\\Projects\\todoapp-minimal-dotnet\\todoapp-minimal-dotnet.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

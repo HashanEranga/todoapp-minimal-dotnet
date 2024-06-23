@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\todoapp-minimal-dotnet\\todoapp-minimal-dotnet.csproj": {}
+    "d:\\Projects\\todoapp-minimal-dotnet\\todoapp-minimal-dotnet.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\todoapp-minimal-dotnet\\todoapp-minimal-dotnet.csproj": {
+    "d:\\Projects\\todoapp-minimal-dotnet\\todoapp-minimal-dotnet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\todoapp-minimal-dotnet\\todoapp-minimal-dotnet.csproj",
+        "projectUniqueName": "d:\\Projects\\todoapp-minimal-dotnet\\todoapp-minimal-dotnet.csproj",
         "projectName": "todoapp-minimal-dotnet",
-        "projectPath": "D:\\Projects\\todoapp-minimal-dotnet\\todoapp-minimal-dotnet.csproj",
+        "projectPath": "d:\\Projects\\todoapp-minimal-dotnet\\todoapp-minimal-dotnet.csproj",
         "packagesPath": "C:\\Users\\Hashan\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\todoapp-minimal-dotnet\\obj\\",
+        "outputPath": "d:\\Projects\\todoapp-minimal-dotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Hashan\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,6 +1,3 @@
-### 
-GET http://localhost:5245/
-
 ###
 GET http://localhost:5245/todos
 
@@ -31,3 +28,6 @@ content-Type: application/json
     "createdOn": "2024-06-23T00:59:57.570307+05:30",
     "isCompleted": true
 }
+
+###
+GET http://localhost:5245/todos/complete

@@ -17,6 +17,12 @@ var todos = new List<Todo>(){
     }
 };
 
+app.MapGet("/todos/complete", Results<Ok<List<Todo>>, NoContent> () => {
+    var completedTodos = todos.Where(todo => todo.IsCompleted).ToList();
+    if(completedTodos.Count < 0) return TypedResults.NoContent();
+    return TypedResults.Ok(completedTodos);
+});
+
 app.MapGet("/todos/{id}", Results<Ok<Todo>, NotFound> (int id) => {
     var targetTodo = todos.SingleOrDefault(todo => todo.Id == id);
     return targetTodo is null ?
