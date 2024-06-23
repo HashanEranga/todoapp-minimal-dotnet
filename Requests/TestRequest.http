@@ -1,1 +1,33 @@
+### 
 GET http://localhost:5245/
+
+###
+GET http://localhost:5245/todos
+
+### 
+POST http://localhost:5245/todos
+content-Type: application/json
+
+{
+    "id" : 3,
+    "description" : "Todo item 3",
+    "createdOn": "2024-06-23T00:57:57.570307+05:30",
+    "isCompleted": false
+}
+
+### 
+GET http://localhost:5245/todos/3
+
+### 
+DELETE http://localhost:5245/todos/3
+
+###
+PATCH http://localhost:5245/todos/3
+content-Type: application/json
+
+{
+    "id" : 3,
+    "description" : "Todo item new 3",
+    "createdOn": "2024-06-23T00:59:57.570307+05:30",
+    "isCompleted": true
+}

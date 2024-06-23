@@ -86,3 +86,5 @@ StyleCopReport.xml
 *.meta
 *.obj
 *.iobj
+obj/Debug/net8.0/todoapp-minimal-dotnet.AssemblyInfo.cs
+obj/Debug/net8.0/todoapp-minimal-dotnet.AssemblyInfoInputs.cache

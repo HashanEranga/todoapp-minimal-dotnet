@@ -23,3 +23,4 @@ D:\Projects\todoapp-minimal-dotnet\obj\Debug\net8.0\refint\todoapp-minimal-dotne
 D:\Projects\todoapp-minimal-dotnet\obj\Debug\net8.0\todoapp-minimal-dotnet.pdb
 D:\Projects\todoapp-minimal-dotnet\obj\Debug\net8.0\todoapp-minimal-dotnet.genruntimeconfig.cache
 D:\Projects\todoapp-minimal-dotnet\obj\Debug\net8.0\ref\todoapp-minimal-dotnet.dll
+D:\Projects\todoapp-minimal-dotnet\obj\Debug\net8.0\todoapp-minimal-dotnet.sourcelink.json
